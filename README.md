@@ -1,5 +1,5 @@
 
-```
+
 # Fancy Carousel
 
 A customizable and interactive carousel component built with React and Next.js. It allows you to display a rotating carousel of images with various styling options. The component supports server-side rendering (SSR) for improved performance and SEO.
