@@ -20,11 +20,36 @@ The Fancy Carousel component supports server-side rendering (SSR) with Next.js, 
 
    ```bash
    git clone https://github.com/your-username/fancy-carousel.git
-2. Install the dependencies: npm install
+2. Install the dependencies:
+   npm install
 
-3. Start the development server: npm run dev
+3. Start the development server:
+    npm run dev
 
 4. Access the carousel component in your browser at http://localhost:3000.
 
 ## Usage
 Import the FancyCarousel component and pass the required props:
+
+  ```bash 
+  import React from 'react';
+import FancyCarousel from './components/FancyCarousel';
+
+const images = [
+  '/path/to/image1.jpg',
+  '/path/to/image2.jpg',
+  '/path/to/image3.jpg',
+  // Add more image paths as needed
+];
+
+const MyComponent = () => {
+  return (
+    <div>
+      <h1>My Fancy Carousel</h1>
+      <FancyCarousel images={images} />
+    </div>
+  );
+};
+
+export default MyComponent;
+
