@@ -53,3 +53,13 @@ const MyComponent = () => {
 
 export default MyComponent;
 
+Ensure that you wrap your Next.js pages with the necessary components and configure the appropriate data fetching methods.
+
+## Props
+- images: An array of image paths to be displayed in the carousel.
+- Add more props and their descriptions as needed.
+For a complete list of available props and their configurations, refer to the component code.
+
+## License
+This project is licensed under the MIT License.
+
